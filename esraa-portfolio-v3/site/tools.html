@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tools — Esraa Ebrahim</title>
+<meta name="description" content="Esraa Ebrahim — Learning Experience Designer. The learning-design and UX toolkit, grouped by job.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Inter:wght@400;450;500;550;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="shared.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <div class="nav-inner">
+    <a class="brand" href="index.html" aria-label="Esraa Ebrahim — home">
+      <svg class="mark" width="30" height="30" viewBox="0 0 30 30" aria-hidden="true">
+        <path d="M6 24c4-2 4-7 9-9s5-7 9-9" fill="none" stroke="var(--teal)" stroke-width="1.7" stroke-linecap="round"/>
+        <circle cx="15" cy="15" r="2.4" class="knot-fill"/>
+      </svg>
+      <span>Esraa Ebrahim<small>Learning Experience Design</small></span>
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="about.html">About</a><a href="projects.html">Case Studies</a><a href="workshops.html">Workshops</a><a href="experience.html">Experience</a>
+      
+      <a href="contact.html" class="nav-cta">Get in touch</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="theme-btn" type="button" aria-label="Toggle theme"></button>
+      <button class="menu-btn" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+<main id="main">
+
+<section class="page-hero section-pad">
+  <div class="wrap">
+    <span class="eyebrow reveal">Tools</span>
+    <h1 class="display reveal" data-d="1" style="margin-top:24px;max-width:15ch">The toolkit, grouped by what I use it for.</h1>
+    <p class="lead reveal" data-d="2" style="margin-top:24px;max-width:54ch">
+      Tools are means, not the point — but knowing which one fits which job is part of the craft. Here's mine,
+      and how I actually use each.
+    </p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section class="section-pad-sm">
+  <div class="wrap">
+    <div class="tool-groups">
+
+      <div class="tool-group reveal">
+        <h2 class="h3">Learning design &amp; build</h2>
+        <p class="tg-sub">Turning a design into something learners can actually use.</p>
+        <div class="tool-rows">
+          <div class="tool-row"><span class="tool-name">Articulate Storyline 360</span><span class="tool-use">Interactive e-learning and scenario-based modules — branching, knowledge checks, the things that make digital learning active rather than a slideshow.</span></div>
+          <div class="tool-row"><span class="tool-name">PowerPoint</span><span class="tool-use">Facilitation decks and visual scaffolding for live sessions — used as a support for the room, never as the lesson itself.</span></div>
+          <div class="tool-row"><span class="tool-name">Canva</span><span class="tool-use">Fast, clean learner materials, worksheets, and visual aids — especially when a session needs handouts that look considered, not photocopied.</span></div>
+        </div>
+      </div>
+
+      <div class="tool-group reveal">
+        <h2 class="h3">Design &amp; UX</h2>
+        <p class="tg-sub">The user-centred craft that informs how I design learning.</p>
+        <div class="tool-rows">
+          <div class="tool-row"><span class="tool-name">Figma</span><span class="tool-use">UI design, wireframing, and prototyping — and increasingly, mapping learning journeys the way I'd map a product flow.</span></div>
+          <div class="tool-row"><span class="tool-name">FigJam</span><span class="tool-use">Collaborative mapping with stakeholders and SMEs — needs analysis, activity maps, and journey diagrams done in the open.</span></div>
+          <div class="tool-row"><span class="tool-name">Photoshop</span><span class="tool-use">Visual asset production and refinement when a project needs more than a template can give.</span></div>
+        </div>
+      </div>
+
+      <div class="tool-group reveal">
+        <h2 class="h3">AI &amp; productivity</h2>
+        <p class="tg-sub">Used deliberately — to move faster on drafts, never to replace the thinking.</p>
+        <div class="tool-rows">
+          <div class="tool-row"><span class="tool-name">ChatGPT</span><span class="tool-use">First drafts, scenario variations, and pressure-testing objectives — a thinking partner for the parts that benefit from speed.</span></div>
+          <div class="tool-row"><span class="tool-name">Notion AI</span><span class="tool-use">Organising research, documentation, and programme planning so the structure stays visible.</span></div>
+          <div class="tool-row"><span class="tool-name">Leonardo AI</span><span class="tool-use">Generating custom visuals and imagery for learning materials when stock won't do.</span></div>
+          <div class="tool-row"><span class="tool-name">Microsoft Office</span><span class="tool-use">The everyday backbone — documents, data, and the unglamorous coordination every real programme runs on.</span></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tool-note reveal">
+      <p><b>How I think about tools:</b> the design decides the tool, never the other way around. I'd rather run a powerful
+      session with paper and a pen — which is exactly what the best workshops in my library use — than build something
+      slick that doesn't change anyone's behaviour.</p>
+    </div>
+  </div>
+</section>
+
+</main>
+<style>
+
+.tool-groups{display:grid;gap:clamp(28px,4vw,44px)}
+.tool-group h2{margin-bottom:4px}
+.tg-sub{color:var(--ink-soft);font-size:1.02rem;margin-bottom:20px}
+.tool-rows{display:grid;gap:0;border-top:1px solid var(--line)}
+.tool-row{display:grid;grid-template-columns:220px 1fr;gap:clamp(18px,3vw,40px);padding:18px 0;border-bottom:1px solid var(--line);align-items:start}
+@media(max-width:680px){.tool-row{grid-template-columns:1fr;gap:6px}}
+.tool-name{font-family:var(--f-display);font-size:1.14rem;font-weight:450;color:var(--ink)}
+.tool-use{font-size:1rem;line-height:1.62;color:var(--ink-soft);max-width:64ch}
+.tool-note{margin-top:40px;padding:22px 26px;background:var(--teal-tint);border-radius:14px;
+  border:1px solid color-mix(in srgb,var(--teal) 18%,transparent)}
+.tool-note p{margin:0;font-size:1.04rem;line-height:1.66;color:var(--ink)}
+.tool-note b{color:var(--ink);font-weight:600}
+
+</style>
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="big">Designing learning experiences that create engagement, reflection &amp; behaviour change.</p>
+        <a class="btn btn-ghost" style="margin-top:24px" href="contact.html">Get in touch</a>
+      </div>
+            <div>
+        <h4>Explore</h4>
+        <a href="about.html">About</a>
+        <a href="projects.html">Case Studies</a>
+        <a href="workshops.html">Workshops</a>
+        <a href="experience.html">Experience</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Connect</h4>
+        <a href="https://www.linkedin.com/in/esraa-ebrahim-797725212" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.behance.net/cd5e05d9" target="_blank" rel="noopener">Behance</a>
+        <a href="mailto:esraa.ibrahim.mostafa@gmail.com">Email</a>
+        <a href="assets/Esraa-Ebrahim-CV.pdf" download>Download CV</a>
+      </div>
+    </div>
+    <div class="footer-base">
+      <span>© 2026 Esraa Ebrahim · Learning Experience Designer</span>
+      <span style="display:flex;gap:18px">
+        <a href="https://www.linkedin.com/in/esraa-ebrahim-797725212" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.behance.net/cd5e05d9" target="_blank" rel="noopener">Behance</a>
+        <a href="mailto:esraa.ibrahim.mostafa@gmail.com">Email</a>
+      </span>
+    </div>
+  </div>
+</footer>
+<script src="shared.js"></script>
+</body>
+</html>
